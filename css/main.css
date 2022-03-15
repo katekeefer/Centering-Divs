@@ -97,14 +97,16 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #353536;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #353536; 
+  font-family: 'Robert Mono', monospace;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-weight: lighter;
   height: 100%;
 }
 
@@ -122,13 +124,26 @@ body {
   display: flex;
   justify-content: center;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  font-weight: lighter;
+  background-color: #353536;
   height: 300px;
   width: 30%;
 }
 
+.div-2 {
+    border-right: #999;
+    border-left: #999;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding-left: 3em;
+}
 
+.div-3 span {
+    text-decoration: underline;
+}
 
 
 /* ==========================================================================
